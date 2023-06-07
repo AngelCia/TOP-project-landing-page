@@ -1,0 +1,175 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+/*-------HEADER---------------------------------*/
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+ul, .second-text, .footer, button{
+    font-size: 18px;
+    color: #d0d3d7;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header, .footer, .hero{
+    background-color: #430f0f
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 6vw;
+}
+
+/*-------HERO-----------------------------------------*/
+
+.hero-text{
+    font-size: 48px;
+    font-style: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 6vw 80px 6vw;
+}
+
+.hero-image{
+    width: 400px;
+}
+
+button{
+    background-color: #b60000;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/*-------SECTION ONE---------------------------------*/
+
+.section{
+    margin-bottom: 60px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 6vw;
+}
+
+.info-header{
+    text-align: center;
+    font-size: 36px;
+    font-style: 900;
+    color: #1f2937;
+}
+
+.info-content{
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    color: #52565c
+}
+
+.demon-info{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #b60000;
+    border-radius: 20px;
+}
+
+
+/*-------SECTION TWO---------------------------------*/
+
+.section-2{
+    background-color: #e5e7eb;
+    padding: 80px 8vw;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 20px 0px;
+}
+
+.quote{
+font-weight: 900;
+font-size: 24px;
+align-self: flex-end;
+margin: 0px 30px;
+}
+
+
+/*-------CTA----------------------------------------*/
+
+.section-3{
+    margin: 80px 6vw;
+}
+
+.blue-box{
+    background-color: #b60000;
+    border-radius: 10px;
+    padding: 45px 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.cta, .cta-sub{
+    margin: 0px;
+    color: white;
+}
+
+.cta{
+    font-weight: 900;
+}
+
+.cta-sub{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.cta-button{
+    border: 1px solid white;
+    align-self: center;
+}
+
+/*-------FOOTER---------------------------------*/
+
+.footer{
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 6vw;
+}
